@@ -19,11 +19,48 @@ body {
     height: 50px;
     text-align: left;
 }
+
 .autore {
     color: lightskyblue;
     font-size: 14px;
 }
+
 .data {
     font-size: 10px;
     margin-top: -10px;
+}
+
+figcaption {
+    font-size: 12px;
+    color: grey;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+.DescrizionePunti{
+    margin: 20px
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+/* Intestazione */
+th {
+    background-color: slateblue;  
+    color: white;               
+}
+
+/* Celle */
+.tabellablu {
+    font-size: 14px;
+    background-color: rgb(0, 255, 255);
+}
+
+.tabellabianca {
+    background-color: white;
+    font-size: 14px;
 }
